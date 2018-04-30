@@ -20,12 +20,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_data_connection_hspap">HSPA+</string>
-    <string name="global_action_restart_advanced">Advanced</string>
-    <string name="global_action_restart_recovery">Recovery</string>
-    <string name="global_action_restart_bootloader">Bootloader</string>
-    <string name="global_action_restart_ui">SystemUI</string>
-    <string name="global_action_restart_soft">Soft Reboot</string>
-    <string name="global_action_screenrecord">Screenrecord</string>
+    <string name="global_action_restart_advanced">高级选项</string>
+    <string name="global_action_restart_recovery">恢复模式</string>
+    <string name="global_action_restart_bootloader">引导模式</string>
+    <string name="global_action_restart_ui">系统UI</string>
+    <string name="global_action_restart_soft">软启动</string>
+    <string name="global_action_screenrecord">屏幕录制</string>
 
     <string name="summary_empty" translatable="false"></string>
 
@@ -35,154 +35,210 @@
     <string name="accessibility_quick_settings_location_high_accuracy">Location reporting: high accuracy mode.</string>
 
     <!-- PiP Tile -->
-    <string name="quick_settings_pip_label">PiP</string>
+    <string name="quick_settings_pip_label">画中画</string>
 
     <!-- Caffeine QS Tile -->
-    <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
+    <string name="quick_settings_caffeine_label">亮屏时间</string>
+    <string name="accessibility_quick_settings_caffeine_off">亮屏时间 关</string>
+    <string name="accessibility_quick_settings_caffeine_on">亮屏时间 开</string>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_hspap">HSPA+</string>
+    <string name="global_action_restart_advanced">高级选项</string>
+    <string name="global_action_restart_recovery">恢复模式</string>
+    <string name="global_action_restart_bootloader">引导模式</string>
+    <string name="global_action_restart_ui">系统UI</string>
+    <string name="global_action_restart_soft">软启动</string>
+    <string name="global_action_screenrecord">屏幕录制</string>
 
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="summary_empty" translatable="false"></string>
+
+    <!-- Advance location quick setting tile -->
+    <string name="accessibility_quick_settings_location_battery_saving">位置报告: 省电模式.</string>
+    <string name="accessibility_quick_settings_location_gps_only">位置报告: 仅限设备.</string>
+    <string name="accessibility_quick_settings_location_high_accuracy">位置报告: 高精度.</string>
+
+    <!-- PiP Tile -->
+    <string name="quick_settings_pip_label">画中画</string>
+
+    <!-- Caffeine QS Tile -->
+    <string name="quick_settings_caffeine_label">亮屏时间</string>
+    <string name="accessibility_quick_settings_caffeine_off">亮屏时间 关</string>
+    <string name="accessibility_quick_settings_caffeine_on">亮屏时间 开</string>
+
+    <string name="statusbar_items_title">状态栏项目</string>
 
     <!-- Screenshot QS tile -->
-    <string name="quick_settings_screenshot_label">Screenshot</string>
+    <string name="quick_settings_screenshot_label">屏幕截图</string>
     <string name="quick_settings_region_screenshot_label">Partial screenshot</string>
 
-    <string name="recents_free_ram">Free RAM:</string>
+    <string name="recents_free_ram">可用RAM:</string>
 
     <!-- volte icon switch -->
     <string name="status_bar_volte">VOLTE</string>
 
     <!-- 4G LTE switch -->
-    <string name="show_fourg_title">Show 4G instead of LTE</string>
-    <string name="show_fourg_summary">Replaces LTE statusbar indicator with 4G</string>
+    <string name="show_fourg_title">显示4G而不是 LTE</string>
+
+    <string name="statusbar_items_title">状态栏项目</string>
+
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenshot_label">屏幕截图</string>
+    <string name="quick_settings_region_screenshot_label">部分屏幕截图</string>
+
+    <string name="recents_free_ram">可用 RAM:</string>
+
+    <!-- volte icon switch -->
+    <string name="status_bar_volte">VOLTE</string>
+
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">显示4G而不是 LTE</string>
+    <string name="show_fourg_summary">用4G显示替换LTE显示</string>
 
     <string name="systemui_tuner_navbar_title">Stock settings</string>
 
     <!-- Screenrecord Notification Ticker -->
-    <string name="screenrecord_notif_ticker">Screen is being recorded</string>
+    <string name="screenrecord_notif_ticker">正在录制屏幕</string>
     <!-- Screenrecord notification title -->
-    <string name="screenrecord_notif_title">Recording screen</string>
+    <string name="screenrecord_notif_title">录制屏幕</string>
     <!-- Screenrecord notification action: Stop -->
-    <string name="screenrecord_notif_stop">Stop</string>
-    <string name="screenrecord_notif_completed">Screen recorded successfully</string>
-    <string name="screenrecord_notif_duration">Total:</string>
+    <string name="screenrecord_notif_stop">停止</string>
+    <string name="screenrecord_notif_completed">屏幕录制完成</string>
+    <string name="screenrecord_notif_duration">总计:</string>
 
     <!-- Screenrecord notification action: show/hide pointer -->
-    <string name="screenrecord_notif_pointer_on">Show pointer</string>
-    <string name="screenrecord_notif_pointer_off">Hide pointer</string>
+    <string name="screenrecord_notif_pointer_on">显示指针</string>
+    <string name="screenrecord_notif_pointer_off">隐藏指针</string>
     <!-- Screen record notification error title -->
-    <string name="screenrecord_notif_error">Unable to record screen</string>
-    <string name="notification_channel_screenrecord">Screenrecords</string>
+    <string name="screenrecord_notif_error">无法录制屏幕</string>
+    <string name="notification_channel_screenrecord">录制屏幕</string>
 
     <!-- LTE QS Tile -->
     <string name="qs_lte_label">LTE</string>
-    <string name="lte_on">LTE ON </string>
-    <string name="lte_off">LTE OFF</string>
+    <string name="lte_on">LTE开启 </string>
+    <string name="lte_off">LTE关闭</string>
 
-    <string name="alert_on_charged_level">You can disconnect the charger ( ">"<xliff:g id="percentage">%s</xliff:g> )</string>
-    <string name="battery_level_good_title">Optimal battery level</string>
+    <string name="alert_on_charged_level">你可以断开充电器 ( ">"<xliff:g id="percentage">%s</xliff:g> )</string>
+    <string name="battery_level_good_title">最佳电池电量</string>
     <string name="battery_level_good_sound" translatable="false">/system/media/audio/ui/GoodBattery.ogg</string>
-    <string name="notification_channel_charge_alert">Optimal battery charge level</string>
+    <string name="notification_channel_charge_alert">最佳充电电量</string>
 
     <string name="status_bar_vpn">VPN</string>
-    <string name="status_bar_roaming">Roaming</string>
+    <string name="status_bar_roaming">漫游</string>
 
-    <string name="lockscreen_default">Default</string>
-    <string name="lockscreen_hidden">None</string>
+    <string name="lockscreen_default">默认</string>
+    <string name="lockscreen_hidden">无</string>
 
     <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
-    <string name="custom_hint">Swipe from icon to launch</string>
+    <string name="custom_hint">从图标界面启动</string>
 
      <!-- Sound QS Tile -->
-     <string name="quick_settings_sound_label">Sound</string>
-     <string name="quick_settings_sound_ring">Ring</string>
-     <string name="quick_settings_sound_vibrate">Vibrate</string>
-     <string name="quick_settings_sound_dnd">Do not disturb</string>
+     <string name="quick_settings_sound_label">声音</string>
+     <string name="quick_settings_sound_ring">铃声</string>
+     <string name="quick_settings_sound_vibrate">震动</string>
+     <string name="quick_settings_sound_dnd">请忽打扰</string>
 
     <!-- Heads Up QS Tile -->
-    <string name="quick_settings_heads_up_label">Heads up</string>
-    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_off">Heads up turned off.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_on">Heads up turned on.</string>
+    <string name="quick_settings_heads_up_label">悬浮消息</string>
+    <string name="accessibility_quick_settings_heads_up_off">悬浮消息关闭.</string>
+    <string name="accessibility_quick_settings_heads_up_on">悬浮消息开启.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">悬浮消息正在关闭.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">悬浮消息正在开启.</string>
 
     <!-- Heads up snooze toast -->
-    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - Peeking notification are snoozing for 1 minute.</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - Peeking notifications are snoozing for <xliff:g id="number">%d</xliff:g> minutes.</string>
+    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - 上滑悬浮消息暂停通知1分钟.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - 上滑悬浮消息暂停通知 <xliff:g id="number">%d</xliff:g> minutes.</string>
 
 
     <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_preventpower">override power key</string>
+    <string name="permlab_preventpower">覆盖电源键</string>
     <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_preventpower">Allows an app to override the power key.</string>
+    <string name="permdesc_preventpower">允许应用覆盖电源键.</string>
 
     <!-- accessibility label for button to open running apps prefscreen [CHAR LIMIT=NONE] -->
     <string name="accessibility_quick_settings_running_services">Open Running Services screen.</string>
 
     <!-- ADB over network QS tile -->
-    <string name="quick_settings_network_adb_enabled_label">Enabled</string>
-    <string name="quick_settings_network_adb_disabled_label">Disabled</string>
-    <string name="quick_settings_network_adb_label">ADB over network</string>
-    <string name="quick_settings_network_adb_toast">USB debugging is not enabled</string>
+    <string name="quick_settings_network_adb_enabled_label">开启</string>
+    <string name="quick_settings_network_adb_disabled_label">关闭</string>
+    <string name="quick_settings_network_adb_label">网络上的ADB</string>
+    <string name="quick_settings_network_adb_toast">USB调试未启用</string>
 
      <!-- Sync QS Tile -->
-    <string name="quick_settings_sync_label">Sync</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Sync turned off</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Sync turned on</string>
+    <string name="quick_settings_sync_label">同步</string>
+    <string name="accessibility_quick_settings_sync_off">同步关</string>
+    <string name="accessibility_quick_settings_sync_on">同步开</string>
+    <string name="accessibility_quick_settings_sync_changed_off">同步正在关闭</string>
+    <string name="accessibility_quick_settings_sync_changed_on">同步正在开启</string>
 
     <!-- USB Tethering tile -->
-    <string name="accessibility_quick_settings_usb_tether_off">USB tethering off</string>
-    <string name="accessibility_quick_settings_usb_tether_on">USB tethering on</string>
-    <string name="accessibility_quick_settings_usb_tether_changed_off">USB tethering turned off</string>
-    <string name="accessibility_quick_settings_usb_tether_changed_on">USB tethering turned on</string>
-    <string name="quick_settings_usb_tether_label">USB tethering</string>
+    <string name="accessibility_quick_settings_usb_tether_off">USB 共享网络 关闭</string>
+    <string name="accessibility_quick_settings_usb_tether_on">USB 共享网络 开启</string>
+    <string name="accessibility_quick_settings_usb_tether_changed_off">USB 共享网络正在关闭</string>
+    <string name="accessibility_quick_settings_usb_tether_changed_on">USB 共享网络正在开启</string>
+    <string name="quick_settings_usb_tether_label">USB 共享网络</string>
 
     <!-- Compass QS Tile -->
-    <string name="quick_settings_compass_label">Compass</string>
+    <string name="quick_settings_compass_label">指南针</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-    <string name="quick_settings_compass_init">Initializing\u2026</string>
-    <string name="accessibility_quick_settings_compass_off">Compass off.</string>
-    <string name="accessibility_quick_settings_compass_on">Compass on.</string>
-    <string name="accessibility_quick_settings_compass_changed_off">Compass turned off.</string>
-    <string name="accessibility_quick_settings_compass_changed_on">Compass turned on.</string>
-    <string name="quick_settings_compass_N">N</string>
-    <string name="quick_settings_compass_NE">NE</string>
-    <string name="quick_settings_compass_E">E</string>
-    <string name="quick_settings_compass_SE">SE</string>
-    <string name="quick_settings_compass_S">S</string>
-    <string name="quick_settings_compass_SW">SW</string>
-    <string name="quick_settings_compass_W">W</string>
-    <string name="quick_settings_compass_NW">NW</string>
+    <string name="quick_settings_compass_init">正在初始化</string>
+    <string name="accessibility_quick_settings_compass_off">指南针 关闭.</string>
+    <string name="accessibility_quick_settings_compass_on">指南针 开启.</string>
+    <string name="accessibility_quick_settings_compass_changed_off">指南针以关闭.</string>
+    <string name="accessibility_quick_settings_compass_changed_on">C指南针以开启.</string>
+    <string name="quick_settings_compass_N">北</string>
+    <string name="quick_settings_compass_NE">东北</string>
+    <string name="quick_settings_compass_E">东</string>
+    <string name="quick_settings_compass_SE">东南</string>
+    <string name="quick_settings_compass_S">南</string>
+    <string name="quick_settings_compass_SW">西南</string>
+    <string name="quick_settings_compass_W">西</string>
+    <string name="quick_settings_compass_NW">西北</string>
 
     <!-- Screenshot QS tile -->
-    <string name="quick_settings_screenrecord_label">Screenrecord</string>
-    <string name="quick_settings_screenrecord_lq_label">Screenrecord LQ</string>
-    <string name="quick_settings_screenrecord_mq_label">Screenrecord MQ</string>
-    <string name="quick_settings_screenrecord_hq_label">Screenrecord HQ</string>
+    <string name="quick_settings_screenrecord_label">屏幕录制</string>
+    <string name="quick_settings_screenrecord_lq_label">屏幕录制 480P</string>
+    <string name="quick_settings_screenrecord_mq_label">屏幕录制 720P</string>
+    <string name="quick_settings_screenrecord_hq_label">屏幕录制 720P+</string>
 
     <!-- OmniJaws -->
-    <string name="omnijaws_service_error">Error</string>
-    <string name="omnijaws_service_unkown">No weather data</string>
-    <string name="omnijaws_service_error_long">Error loading weather data</string>
-    <string name="omnijaws_service_disabled">Service is disabled</string>
-    <string name="omnijaws_detail_header">Weather</string>
-    <string name="omnijaws_label_default">Weather</string>
-    <string name="omnijaws_current_text">Now</string>
-    <string name="omnijaws_package_not_available">OmniJaws not available</string>
-    <string name="omnijaws_service_last_update">Last update:</string>
+    <string name="omnijaws_service_error">错误</string>
+    <string name="omnijaws_service_unkown">没有天气数据</string>
+    <string name="omnijaws_service_error_long">错误 等待天气数据</string>
+    <string name="omnijaws_service_disabled">服务关闭</string>
+    <string name="omnijaws_detail_header">天气</string>
+    <string name="omnijaws_label_default">天气</string>
+    <string name="omnijaws_current_text">现在</string>
+    <string name="omnijaws_package_not_available">OmniJaws 不可用</string>
+    <string name="omnijaws_service_last_update">最后更新:</string>
 
     <!-- Recents -->
-    <string name="recents_app_killed">App killed</string>
+    <string name="recents_app_killed">终止应用</string>
 
     <!-- Kill button in notification guts -->
-    <string name="force_stop_dlg_title">Force stop?</string>
-    <string name="force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
+    <string name="force_stop_dlg_title">强行停止?</string>
+    <string name="force_stop_dlg_text">如果你强制停止应用程序，它可能会出错。</string>
     <string name="dlg_ok">@android:string/ok</string>
     <string name="dlg_cancel">@android:string/cancel</string>
-    <string name="kill">Kill App</string>
+    <string name="kill">终结应用</string>
 
     <!-- Weather string format in expanded statusbar header -->
     <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
